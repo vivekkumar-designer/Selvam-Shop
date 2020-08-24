@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+*{
+    box-sizing: border-box;
+    font-family: "Raleway";
+    
+}
+html,body{
+    margin:0;
+    padding:0;
+    }
+    .nav ul{
+        margin:0;
+        color:white;
+    }
+    .nav li{
+        display: inline;
+        
+    }    
+    .nav a{
+        display:inline-block;
+        padding: .5rem;
+        color:white;
+        text-decoration: none;
+    }
+    .main-nav{
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: lighter;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+    .main-nav li{
+        padding: 0 5%;
+    }
+.main-header{
+    background-image: url(https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2018/03/03103805/big-concert-audience-listening-to-music-at-festival-picture-id485343244.jpg);
+    padding:4rem;
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    margin-bottom: 0;
+}
+.main-nav li{
+    padding: 0 5%;
+}
+.nav a:hover{
+    background-color: rgba(255,255,255,.3);
+}
+.band-name-contact{
+    font-size: .9rem;
+    padding: .5rem;
+    color:white;
+    text-decoration: none;
+    padding-left: 30%;
+    flex-grow: 1;
+    text-align: end;
+    }
+.band-name{
+    text-align: center;
+    margin:0;
+    font-size: 2rem;
+    font-family: 'Black Ops One', cursive;
+    color: rgb(245, 241, 28);
+    font-weight: normal;
+}
+.band-name-large{
+    font-size: 5rem;
+}
+.main-container{
+    background-image: url(https://scontent.fmaa2-2.fna.fbcdn.net/v/t1.0-9/s960x960/118183018_4533622713322314_454544873568611202_o.jpg?_nc_cat=111&_nc_sid=730e14&_nc_ohc=OsB-3AdbiV0AX_PuU1Q&_nc_ht=scontent.fmaa2-2.fna&tp=7&oh=6b1a8d98719c7ef2dce7c495654d512c&oe=5F6A6D5E);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 600px;
+    border-radius: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}   
+
+.container-discount{
+    background-color: rgba(202, 204, 80, 0.904);
+    height:250px;
+    width: 200px;
+    color: black;
+    position: relative;
+    top:7rem;
+    left:5rem;
+    padding: .5rem 2px 0;
+    font-family: 'Do Hyeon', cursive;
+    font-weight: bold;
+}
+.clip{
+    position: relative;
+    bottom:10.9rem;
+    left:8.5rem;
+}
+.main-footer{
+    background-image: url(https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2018/03/03103805/big-concert-audience-listening-to-music-at-festival-picture-id485343244.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rgba(0,0,0,.6);
+    
+    color: rgba(245, 241, 28, 0.884);
+    margin:0;
+}
+.copyrights{
+    text-align: center;
+    padding-left: 40%;
+    color: rgba(229, 231, 80, 0.904);
+    font-weight: bolder;
+    font-size: smaller;
+}
+.achievements-div{
+    padding: 2rem;
+    height: 30rem;
+    width: 35rem;
+    background-color: rgba(255, 255, 255, 0.527);
+    border: 2px solid rgba(255, 255, 255, 0.747);
+    border-radius: 10%;
+    text-align: center;
+    position: relative;
+    top:5.5rem;
+    left:2rem;
+}
+.band-name-header{
+   color: rgb(34, 34, 31);
+   text-decoration: underline;
+}
+.band-name-achievements{
+    color: rgb(59, 59, 56);
+    text-align: start;
+}
+.page-header{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.747);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
